@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GoPoGoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GoPoGoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* GoPoGoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* GoPoGoViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* GoPoGoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GoPoGoViewController.m */; };
+		CE11E56D12F4D53700B01355 /* cancel-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE11E56C12F4D53700B01355 /* cancel-btn.png */; };
+		CE71090B1315AA9700E65A0D /* homepageBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CE71090A1315AA9700E65A0D /* homepageBG.png */; };
+		CE767F8D12DD131E00EDAE28 /* SignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE767F8C12DD131E00EDAE28 /* SignUpController.m */; };
+		CE76CFF212F80656000C2855 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = CE76CFF112F80656000C2855 /* splash.png */; };
+		CE7BFCBC1300B66F00AD672F /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7BFCBB1300B66F00AD672F /* password.png */; };
+		CE7CE41312F6E0A90013FEDE /* homepage-bot.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE41112F6E0A90013FEDE /* homepage-bot.png */; };
+		CE7CE44712F6EEBE0013FEDE /* homepage-top.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE44612F6EEBE0013FEDE /* homepage-top.png */; };
+		CE7CE61612F6FA3E0013FEDE /* sign-out-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE61512F6FA3E0013FEDE /* sign-out-btn.png */; };
+		CE7CE63412F6FC3F0013FEDE /* forgot-password.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE63312F6FC3F0013FEDE /* forgot-password.png */; };
+		CE7CE63612F6FC4B0013FEDE /* reset-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE63512F6FC4B0013FEDE /* reset-btn.png */; };
+		CE7CE63912F6FC820013FEDE /* submit-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CE63812F6FC810013FEDE /* submit-btn.png */; };
+		CE7CE63C12F6FCC20013FEDE /* ForgotPswdController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CE63B12F6FCC20013FEDE /* ForgotPswdController.m */; };
+		CE8576D112FB4A9F00A7AEDB /* AccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8576D012FB4A9F00A7AEDB /* AccountView.m */; };
+		CE881CED12F43588002F04A0 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE881CEB12F43588002F04A0 /* HomeScreenViewController.m */; };
+		CE881CEE12F43588002F04A0 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE881CEC12F43588002F04A0 /* HomeScreenViewController.xib */; };
+		CE881D2412F43B11002F04A0 /* search-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1512F43B11002F04A0 /* search-btn.png */; };
+		CE881D2512F43B11002F04A0 /* search-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1612F43B11002F04A0 /* search-bg.png */; };
+		CE881D2612F43B11002F04A0 /* account-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1712F43B11002F04A0 /* account-icon.png */; };
+		CE881D2712F43B11002F04A0 /* browse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1812F43B11002F04A0 /* browse-icon.png */; };
+		CE881D2812F43B11002F04A0 /* create-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1912F43B11002F04A0 /* create-icon.png */; };
+		CE881D2912F43B11002F04A0 /* fan-of-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1A12F43B11002F04A0 /* fan-of-icon.png */; };
+		CE881D2A12F43B11002F04A0 /* fav-places-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1B12F43B11002F04A0 /* fav-places-icon.png */; };
+		CE881D2C12F43B11002F04A0 /* locator.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1D12F43B11002F04A0 /* locator.png */; };
+		CE881D2D12F43B11002F04A0 /* my-fans-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1E12F43B11002F04A0 /* my-fans-icon.png */; };
+		CE881D2E12F43B11002F04A0 /* my-playlists-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D1F12F43B11002F04A0 /* my-playlists-icon.png */; };
+		CE881D2F12F43B11002F04A0 /* my-queue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D2012F43B11002F04A0 /* my-queue-icon.png */; };
+		CE881D3012F43B11002F04A0 /* near-by-me-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D2112F43B11002F04A0 /* near-by-me-icon.png */; };
+		CE881D3212F43B11002F04A0 /* zipcode-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE881D2312F43B11002F04A0 /* zipcode-bg.png */; };
+		CE8827F112FC9A9A0051B88C /* close2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8827F012FC9A9A0051B88C /* close2.png */; };
+		CE89270612E6681500934E8E /* FBConnectGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8926F412E6681500934E8E /* FBConnectGlobal.m */; };
+		CE89270712E6681500934E8E /* FBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8926F612E6681500934E8E /* FBSession.m */; };
+		CE89270812E6681500934E8E /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8926F812E6681500934E8E /* FBRequest.m */; };
+		CE89270912E6681500934E8E /* FBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8926FA12E6681500934E8E /* FBXMLHandler.m */; };
+		CE89270A12E6681500934E8E /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8926FC12E6681500934E8E /* FBLoginButton.m */; };
+		CE89270B12E6681500934E8E /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8926FE12E6681500934E8E /* FBDialog.m */; };
+		CE89270C12E6681500934E8E /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89270012E6681500934E8E /* FBLoginDialog.m */; };
+		CE89270D12E6681500934E8E /* FBPermissionDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89270212E6681500934E8E /* FBPermissionDialog.m */; };
+		CE89270E12E6681500934E8E /* FBStreamDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89270412E6681500934E8E /* FBStreamDialog.m */; };
+		CE89270F12E6681500934E8E /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE89270512E6681500934E8E /* FBConnect.bundle */; };
+		CE9271D112F3860A00228EA1 /* create-account.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9271D012F3860A00228EA1 /* create-account.png */; };
+		CE92722C12F391FC00228EA1 /* password-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE92722B12F391FC00228EA1 /* password-btn.png */; };
+		CE92722E12F3920A00228EA1 /* login-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE92722D12F3920A00228EA1 /* login-btn.png */; };
+		CE92723012F3922200228EA1 /* create-account-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CE92722F12F3922200228EA1 /* create-account-btn.png */; };
+		CE933F7712F4A1EB00693954 /* sign-in-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE933F7612F4A1EB00693954 /* sign-in-bg.png */; };
+		CE933FB612F4AA1600693954 /* create-account-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE933FB512F4AA1600693954 /* create-account-bg.png */; };
+		CE986B9412E53E2000251953 /* login-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CE986B9312E53E2000251953 /* login-button.png */; };
+		CE9B3D6A12DCE48600CB37C8 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B3D6912DCE48600CB37C8 /* LoginController.m */; };
+		CE9B3E8E12DCFE8E00CB37C8 /* do-it-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B3E8D12DCFE8E00CB37C8 /* do-it-button.png */; };
+		CE9B3E9012DCFE9800CB37C8 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B3E8F12DCFE9800CB37C8 /* right-arrow.png */; };
+		CE9B3E9212DCFE9F00CB37C8 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B3E9112DCFE9F00CB37C8 /* left-arrow.png */; };
+		CE9B3E9412DCFEAB00CB37C8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9B3E9312DCFEAB00CB37C8 /* logo.png */; };
+		CEAD192F1305D592004AB9BB /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD192D1305D592004AB9BB /* webViewController.m */; };
+		CEAD19301305D592004AB9BB /* webViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD192E1305D592004AB9BB /* webViewController.xib */; };
+		CEAD195B1305DA74004AB9BB /* WebTextbox-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD195A1305DA74004AB9BB /* WebTextbox-bg.png */; };
+		CEAD195D1305DA81004AB9BB /* WebClose-bg-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD195C1305DA81004AB9BB /* WebClose-bg-btn.png */; };
+		CEAD195F1305DA8C004AB9BB /* WebArrow-leftr.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD195E1305DA8C004AB9BB /* WebArrow-leftr.png */; };
+		CEAD19611305DB7B004AB9BB /* close1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD19601305DB7B004AB9BB /* close1.png */; };
+		CEAD19631305DB83004AB9BB /* try.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD19621305DB83004AB9BB /* try.png */; };
+		CEAD19651305DBA0004AB9BB /* WebArrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD19641305DBA0004AB9BB /* WebArrow-right.png */; };
+		CEB50A3F12F24CD8003EF802 /* homepage-main-bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB50A3E12F24CD8003EF802 /* homepage-main-bg1.png */; };
+		CEB50B0D12F26934003EF802 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB50B0C12F26934003EF802 /* cancel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GoPoGoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoPoGoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GoPoGoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoPoGoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GoPoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* GoPoGoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoPoGoViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* GoPoGoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoPoGoViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* GoPoGoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoPoGoViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GoPoGo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoPoGo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GoPoGo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoPoGo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE11E56C12F4D53700B01355 /* cancel-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-btn.png"; sourceTree = "<group>"; };
+		CE71090A1315AA9700E65A0D /* homepageBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepageBG.png; sourceTree = "<group>"; };
+		CE767F8B12DD131E00EDAE28 /* SignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpController.h; sourceTree = "<group>"; };
+		CE767F8C12DD131E00EDAE28 /* SignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpController.m; sourceTree = "<group>"; };
+		CE76CFF112F80656000C2855 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		CE7BFCBB1300B66F00AD672F /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		CE7CE41112F6E0A90013FEDE /* homepage-bot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage-bot.png"; sourceTree = "<group>"; };
+		CE7CE44612F6EEBE0013FEDE /* homepage-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "homepage-top.png"; path = "Classes/homepage-top.png"; sourceTree = "<group>"; };
+		CE7CE61512F6FA3E0013FEDE /* sign-out-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-out-btn.png"; sourceTree = "<group>"; };
+		CE7CE63312F6FC3F0013FEDE /* forgot-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forgot-password.png"; sourceTree = "<group>"; };
+		CE7CE63512F6FC4B0013FEDE /* reset-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-btn.png"; sourceTree = "<group>"; };
+		CE7CE63812F6FC810013FEDE /* submit-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit-btn.png"; sourceTree = "<group>"; };
+		CE7CE63A12F6FCB80013FEDE /* ForgotPswdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPswdController.h; sourceTree = "<group>"; };
+		CE7CE63B12F6FCC20013FEDE /* ForgotPswdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPswdController.m; sourceTree = "<group>"; };
+		CE8576CF12FB4A9F00A7AEDB /* AccountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountView.h; sourceTree = "<group>"; };
+		CE8576D012FB4A9F00A7AEDB /* AccountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountView.m; sourceTree = "<group>"; };
+		CE881CEA12F43588002F04A0 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		CE881CEB12F43588002F04A0 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		CE881CEC12F43588002F04A0 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		CE881D1512F43B11002F04A0 /* search-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-btn.png"; sourceTree = "<group>"; };
+		CE881D1612F43B11002F04A0 /* search-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-bg.png"; sourceTree = "<group>"; };
+		CE881D1712F43B11002F04A0 /* account-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account-icon.png"; sourceTree = "<group>"; };
+		CE881D1812F43B11002F04A0 /* browse-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browse-icon.png"; sourceTree = "<group>"; };
+		CE881D1912F43B11002F04A0 /* create-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-icon.png"; sourceTree = "<group>"; };
+		CE881D1A12F43B11002F04A0 /* fan-of-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fan-of-icon.png"; sourceTree = "<group>"; };
+		CE881D1B12F43B11002F04A0 /* fav-places-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav-places-icon.png"; sourceTree = "<group>"; };
+		CE881D1D12F43B11002F04A0 /* locator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locator.png; sourceTree = "<group>"; };
+		CE881D1E12F43B11002F04A0 /* my-fans-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-fans-icon.png"; sourceTree = "<group>"; };
+		CE881D1F12F43B11002F04A0 /* my-playlists-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-playlists-icon.png"; sourceTree = "<group>"; };
+		CE881D2012F43B11002F04A0 /* my-queue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-queue-icon.png"; sourceTree = "<group>"; };
+		CE881D2112F43B11002F04A0 /* near-by-me-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "near-by-me-icon.png"; sourceTree = "<group>"; };
+		CE881D2312F43B11002F04A0 /* zipcode-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipcode-bg.png"; sourceTree = "<group>"; };
+		CE8827F012FC9A9A0051B88C /* close2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close2.png; sourceTree = "<group>"; };
+		CE8926F212E6681500934E8E /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		CE8926F312E6681500934E8E /* FBConnectGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnectGlobal.h; sourceTree = "<group>"; };
+		CE8926F412E6681500934E8E /* FBConnectGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConnectGlobal.m; sourceTree = "<group>"; };
+		CE8926F512E6681500934E8E /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		CE8926F612E6681500934E8E /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
+		CE8926F712E6681500934E8E /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		CE8926F812E6681500934E8E /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		CE8926F912E6681500934E8E /* FBXMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXMLHandler.h; sourceTree = "<group>"; };
+		CE8926FA12E6681500934E8E /* FBXMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXMLHandler.m; sourceTree = "<group>"; };
+		CE8926FB12E6681500934E8E /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
+		CE8926FC12E6681500934E8E /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
+		CE8926FD12E6681500934E8E /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		CE8926FE12E6681500934E8E /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		CE8926FF12E6681500934E8E /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		CE89270012E6681500934E8E /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		CE89270112E6681500934E8E /* FBPermissionDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPermissionDialog.h; sourceTree = "<group>"; };
+		CE89270212E6681500934E8E /* FBPermissionDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPermissionDialog.m; sourceTree = "<group>"; };
+		CE89270312E6681500934E8E /* FBStreamDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBStreamDialog.h; sourceTree = "<group>"; };
+		CE89270412E6681500934E8E /* FBStreamDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBStreamDialog.m; sourceTree = "<group>"; };
+		CE89270512E6681500934E8E /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBConnect.bundle; sourceTree = "<group>"; };
+		CE9271D012F3860A00228EA1 /* create-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-account.png"; sourceTree = "<group>"; };
+		CE92722B12F391FC00228EA1 /* password-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-btn.png"; sourceTree = "<group>"; };
+		CE92722D12F3920A00228EA1 /* login-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-btn.png"; sourceTree = "<group>"; };
+		CE92722F12F3922200228EA1 /* create-account-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-account-btn.png"; sourceTree = "<group>"; };
+		CE933F7612F4A1EB00693954 /* sign-in-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-bg.png"; sourceTree = "<group>"; };
+		CE933FB512F4AA1600693954 /* create-account-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-account-bg.png"; sourceTree = "<group>"; };
+		CE986B9312E53E2000251953 /* login-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button.png"; sourceTree = "<group>"; };
+		CE9B3D6812DCE48600CB37C8 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		CE9B3D6912DCE48600CB37C8 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		CE9B3E8D12DCFE8E00CB37C8 /* do-it-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "do-it-button.png"; sourceTree = "<group>"; };
+		CE9B3E8F12DCFE9800CB37C8 /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		CE9B3E9112DCFE9F00CB37C8 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		CE9B3E9312DCFEAB00CB37C8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CEAD192C1305D592004AB9BB /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		CEAD192D1305D592004AB9BB /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
+		CEAD192E1305D592004AB9BB /* webViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = webViewController.xib; sourceTree = "<group>"; };
+		CEAD195A1305DA74004AB9BB /* WebTextbox-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebTextbox-bg.png"; sourceTree = "<group>"; };
+		CEAD195C1305DA81004AB9BB /* WebClose-bg-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebClose-bg-btn.png"; sourceTree = "<group>"; };
+		CEAD195E1305DA8C004AB9BB /* WebArrow-leftr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebArrow-leftr.png"; sourceTree = "<group>"; };
+		CEAD19601305DB7B004AB9BB /* close1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close1.png; sourceTree = "<group>"; };
+		CEAD19621305DB83004AB9BB /* try.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try.png; sourceTree = "<group>"; };
+		CEAD19641305DBA0004AB9BB /* WebArrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebArrow-right.png"; sourceTree = "<group>"; };
+		CEB50A3E12F24CD8003EF802 /* homepage-main-bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage-main-bg1.png"; sourceTree = "<group>"; };
+		CEB50B0C12F26934003EF802 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* GoPoGoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GoPoGoAppDelegate.m */,
+				CE881CEA12F43588002F04A0 /* HomeScreenViewController.h */,
+				CE881CEB12F43588002F04A0 /* HomeScreenViewController.m */,
+				CE881CEC12F43588002F04A0 /* HomeScreenViewController.xib */,
+				28D7ACF60DDB3853001CB0EB /* GoPoGoViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* GoPoGoViewController.m */,
+				CE9B3D6812DCE48600CB37C8 /* LoginController.h */,
+				CE9B3D6912DCE48600CB37C8 /* LoginController.m */,
+				CE767F8B12DD131E00EDAE28 /* SignUpController.h */,
+				CE767F8C12DD131E00EDAE28 /* SignUpController.m */,
+				CE7CE63A12F6FCB80013FEDE /* ForgotPswdController.h */,
+				CE7CE63B12F6FCC20013FEDE /* ForgotPswdController.m */,
+				CE8576CF12FB4A9F00A7AEDB /* AccountView.h */,
+				CE8576D012FB4A9F00A7AEDB /* AccountView.m */,
+				CEAD192C1305D592004AB9BB /* webViewController.h */,
+				CEAD192D1305D592004AB9BB /* webViewController.m */,
+				CEAD192E1305D592004AB9BB /* webViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GoPoGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CE8926F112E6681500934E8E /* FBConnect */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE7108B21315A34000E65A0D /* Images */,
+				32CA4F630368D1EE00C91783 /* GoPoGo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* GoPoGoViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* GoPoGo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7108B21315A34000E65A0D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE71090A1315AA9700E65A0D /* homepageBG.png */,
+				CE7CE63312F6FC3F0013FEDE /* forgot-password.png */,
+				CEAD195A1305DA74004AB9BB /* WebTextbox-bg.png */,
+				CEAD19621305DB83004AB9BB /* try.png */,
+				CEAD195C1305DA81004AB9BB /* WebClose-bg-btn.png */,
+				CEAD195E1305DA8C004AB9BB /* WebArrow-leftr.png */,
+				CEAD19641305DBA0004AB9BB /* WebArrow-right.png */,
+				CE8827F012FC9A9A0051B88C /* close2.png */,
+				CEAD19601305DB7B004AB9BB /* close1.png */,
+				CE7CE44612F6EEBE0013FEDE /* homepage-top.png */,
+				CE7CE41112F6E0A90013FEDE /* homepage-bot.png */,
+				CE7BFCBB1300B66F00AD672F /* password.png */,
+				CE7CE61512F6FA3E0013FEDE /* sign-out-btn.png */,
+				CEB50A3E12F24CD8003EF802 /* homepage-main-bg1.png */,
+				CE7CE63512F6FC4B0013FEDE /* reset-btn.png */,
+				CE881D1612F43B11002F04A0 /* search-bg.png */,
+				CE881D1712F43B11002F04A0 /* account-icon.png */,
+				CE881D1512F43B11002F04A0 /* search-btn.png */,
+				CE881D1812F43B11002F04A0 /* browse-icon.png */,
+				CE881D1A12F43B11002F04A0 /* fan-of-icon.png */,
+				CE881D1B12F43B11002F04A0 /* fav-places-icon.png */,
+				CE881D1D12F43B11002F04A0 /* locator.png */,
+				CE881D1E12F43B11002F04A0 /* my-fans-icon.png */,
+				CE881D1F12F43B11002F04A0 /* my-playlists-icon.png */,
+				CE881D2012F43B11002F04A0 /* my-queue-icon.png */,
+				CE881D2112F43B11002F04A0 /* near-by-me-icon.png */,
+				CE881D2312F43B11002F04A0 /* zipcode-bg.png */,
+				CE933F7612F4A1EB00693954 /* sign-in-bg.png */,
+				CE11E56C12F4D53700B01355 /* cancel-btn.png */,
+				CE933FB512F4AA1600693954 /* create-account-bg.png */,
+				CE7CE63812F6FC810013FEDE /* submit-btn.png */,
+				CE9271D012F3860A00228EA1 /* create-account.png */,
+				CE92722B12F391FC00228EA1 /* password-btn.png */,
+				CE92722D12F3920A00228EA1 /* login-btn.png */,
+				CE92722F12F3922200228EA1 /* create-account-btn.png */,
+				CE76CFF112F80656000C2855 /* splash.png */,
+				CEB50B0C12F26934003EF802 /* cancel.png */,
+				CE881D1912F43B11002F04A0 /* create-icon.png */,
+				CE9B3E8F12DCFE9800CB37C8 /* right-arrow.png */,
+				CE9B3E8D12DCFE8E00CB37C8 /* do-it-button.png */,
+				CE9B3E9112DCFE9F00CB37C8 /* left-arrow.png */,
+				CE9B3E9312DCFEAB00CB37C8 /* logo.png */,
+				CE986B9312E53E2000251953 /* login-button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CE8926F112E6681500934E8E /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				CE8926F212E6681500934E8E /* FBConnect.h */,
+				CE8926F312E6681500934E8E /* FBConnectGlobal.h */,
+				CE8926F412E6681500934E8E /* FBConnectGlobal.m */,
+				CE8926F512E6681500934E8E /* FBSession.h */,
+				CE8926F612E6681500934E8E /* FBSession.m */,
+				CE8926F712E6681500934E8E /* FBRequest.h */,
+				CE8926F812E6681500934E8E /* FBRequest.m */,
+				CE8926F912E6681500934E8E /* FBXMLHandler.h */,
+				CE8926FA12E6681500934E8E /* FBXMLHandler.m */,
+				CE8926FB12E6681500934E8E /* FBLoginButton.h */,
+				CE8926FC12E6681500934E8E /* FBLoginButton.m */,
+				CE8926FD12E6681500934E8E /* FBDialog.h */,
+				CE8926FE12E6681500934E8E /* FBDialog.m */,
+				CE89270012E6681500934E8E /* FBLoginDialog.m */,
+				CE8926FF12E6681500934E8E /* FBLoginDialog.h */,
+				CE89270112E6681500934E8E /* FBPermissionDialog.h */,
+				CE89270212E6681500934E8E /* FBPermissionDialog.m */,
+				CE89270312E6681500934E8E /* FBStreamDialog.h */,
+				CE89270412E6681500934E8E /* FBStreamDialog.m */,
+				CE89270512E6681500934E8E /* FBConnect.bundle */,
+			);
+			name = FBConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GoPoGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GoPoGo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoPoGo;
+			productName = GoPoGo;
+			productReference = 1D6058910D05DD3D006BFB54 /* GoPoGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GoPoGo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GoPoGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* GoPoGoViewController.xib in Resources */,
+				CE9B3E8E12DCFE8E00CB37C8 /* do-it-button.png in Resources */,
+				CE9B3E9012DCFE9800CB37C8 /* right-arrow.png in Resources */,
+				CE9B3E9212DCFE9F00CB37C8 /* left-arrow.png in Resources */,
+				CE9B3E9412DCFEAB00CB37C8 /* logo.png in Resources */,
+				CE986B9412E53E2000251953 /* login-button.png in Resources */,
+				CE89270F12E6681500934E8E /* FBConnect.bundle in Resources */,
+				CEB50A3F12F24CD8003EF802 /* homepage-main-bg1.png in Resources */,
+				CEB50B0D12F26934003EF802 /* cancel.png in Resources */,
+				CE9271D112F3860A00228EA1 /* create-account.png in Resources */,
+				CE92722C12F391FC00228EA1 /* password-btn.png in Resources */,
+				CE92722E12F3920A00228EA1 /* login-btn.png in Resources */,
+				CE92723012F3922200228EA1 /* create-account-btn.png in Resources */,
+				CE933F7712F4A1EB00693954 /* sign-in-bg.png in Resources */,
+				CE933FB612F4AA1600693954 /* create-account-bg.png in Resources */,
+				CE11E56D12F4D53700B01355 /* cancel-btn.png in Resources */,
+				CE881CEE12F43588002F04A0 /* HomeScreenViewController.xib in Resources */,
+				CE881D2412F43B11002F04A0 /* search-btn.png in Resources */,
+				CE881D2512F43B11002F04A0 /* search-bg.png in Resources */,
+				CE881D2612F43B11002F04A0 /* account-icon.png in Resources */,
+				CE881D2712F43B11002F04A0 /* browse-icon.png in Resources */,
+				CE881D2812F43B11002F04A0 /* create-icon.png in Resources */,
+				CE881D2912F43B11002F04A0 /* fan-of-icon.png in Resources */,
+				CE881D2A12F43B11002F04A0 /* fav-places-icon.png in Resources */,
+				CE881D2C12F43B11002F04A0 /* locator.png in Resources */,
+				CE881D2D12F43B11002F04A0 /* my-fans-icon.png in Resources */,
+				CE881D2E12F43B11002F04A0 /* my-playlists-icon.png in Resources */,
+				CE881D2F12F43B11002F04A0 /* my-queue-icon.png in Resources */,
+				CE881D3012F43B11002F04A0 /* near-by-me-icon.png in Resources */,
+				CE881D3212F43B11002F04A0 /* zipcode-bg.png in Resources */,
+				CE7CE41312F6E0A90013FEDE /* homepage-bot.png in Resources */,
+				CE7CE44712F6EEBE0013FEDE /* homepage-top.png in Resources */,
+				CE7CE61612F6FA3E0013FEDE /* sign-out-btn.png in Resources */,
+				CE7CE63412F6FC3F0013FEDE /* forgot-password.png in Resources */,
+				CE7CE63612F6FC4B0013FEDE /* reset-btn.png in Resources */,
+				CE7CE63912F6FC820013FEDE /* submit-btn.png in Resources */,
+				CE76CFF212F80656000C2855 /* splash.png in Resources */,
+				CE8827F112FC9A9A0051B88C /* close2.png in Resources */,
+				CE7BFCBC1300B66F00AD672F /* password.png in Resources */,
+				CEAD19301305D592004AB9BB /* webViewController.xib in Resources */,
+				CEAD195B1305DA74004AB9BB /* WebTextbox-bg.png in Resources */,
+				CEAD195D1305DA81004AB9BB /* WebClose-bg-btn.png in Resources */,
+				CEAD195F1305DA8C004AB9BB /* WebArrow-leftr.png in Resources */,
+				CEAD19611305DB7B004AB9BB /* close1.png in Resources */,
+				CEAD19631305DB83004AB9BB /* try.png in Resources */,
+				CEAD19651305DBA0004AB9BB /* WebArrow-right.png in Resources */,
+				CE71090B1315AA9700E65A0D /* homepageBG.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GoPoGoAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* GoPoGoViewController.m in Sources */,
+				CE9B3D6A12DCE48600CB37C8 /* LoginController.m in Sources */,
+				CE767F8D12DD131E00EDAE28 /* SignUpController.m in Sources */,
+				CE89270612E6681500934E8E /* FBConnectGlobal.m in Sources */,
+				CE89270712E6681500934E8E /* FBSession.m in Sources */,
+				CE89270812E6681500934E8E /* FBRequest.m in Sources */,
+				CE89270912E6681500934E8E /* FBXMLHandler.m in Sources */,
+				CE89270A12E6681500934E8E /* FBLoginButton.m in Sources */,
+				CE89270B12E6681500934E8E /* FBDialog.m in Sources */,
+				CE89270C12E6681500934E8E /* FBLoginDialog.m in Sources */,
+				CE89270D12E6681500934E8E /* FBPermissionDialog.m in Sources */,
+				CE89270E12E6681500934E8E /* FBStreamDialog.m in Sources */,
+				CE881CED12F43588002F04A0 /* HomeScreenViewController.m in Sources */,
+				CE7CE63C12F6FCC20013FEDE /* ForgotPswdController.m in Sources */,
+				CE8576D112FB4A9F00A7AEDB /* AccountView.m in Sources */,
+				CEAD192F1305D592004AB9BB /* webViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GoPoGo_Prefix.pch;
+				INFOPLIST_FILE = "GoPoGo-Info.plist";
+				PRODUCT_NAME = GoPoGo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GoPoGo_Prefix.pch;
+				INFOPLIST_FILE = "GoPoGo-Info.plist";
+				PRODUCT_NAME = GoPoGo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GoPoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GoPoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
